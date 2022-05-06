@@ -1,18 +1,6 @@
 const fs = require('fs');
 const { exec } = require("child_process");
 
-/* exec("mitmweb -s main.py", (error, stdout, stderr) => {
-    if (error) {
-        console.log(`error: ${error.message}`);
-        return;
-    }
-    if (stderr) {
-        console.log(`stderr: ${stderr}`);
-        return;
-    }
-    console.log(`stdout: ${stdout}`);
-}); */
-
 function handle() {
     //get json from file
     const data = fs.readFileSync('questions.json');
