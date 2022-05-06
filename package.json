@@ -1,0 +1,23 @@
+{
+  "name": "education-perfect-answer-intercepter",
+  "version": "1.0.0",
+  "description": "Currently a proof of concept outlining how an Answer Intercepter might work.",
+  "main": "handle.js",
+  "scripts": {
+    "test": ".",
+    "handle.js": "h"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NazierH/Education-Perfect-Answer-Interceptor.git"
+  },
+  "author": "Nazier Hanif",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NazierH/Education-Perfect-Answer-Interceptor/issues"
+  },
+  "homepage": "https://github.com/NazierH/Education-Perfect-Answer-Interceptor#readme",
+  "dependencies": {
+    "@mswjs/interceptors": "^0.15.1"
+  }
+}

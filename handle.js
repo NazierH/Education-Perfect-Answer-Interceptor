@@ -1,5 +1,5 @@
 const fs = require('fs');
-const { exec } = require("child_process");
+
 
 function handle() {
     //get json from file
