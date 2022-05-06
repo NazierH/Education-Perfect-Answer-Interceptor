@@ -1,12 +1,5 @@
 
-# Education Perfect Answer - Proof of Concept
-
-Currently a proof of concept outlining how an Answer Intercepter might work.
-
-    - The Concept uses Postman and Burpsuite
-    - Product can be in the form of a chrome extention or
-      headless chrome browser.
-
+# Education Perfect Answer
 ## Background
 
 While inspecting https traffic between the education perfect an client and server, I found out a few interesting things.
