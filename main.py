@@ -1,7 +1,6 @@
 import json
 import sys
 from mitmproxy import http
-import time
 
 def response(flow: http.HTTPFlow):
     if "nz.co.LanguagePerfect.Services.PortalsAsync.App.AppServicesPortal.GetQuestionsWithOptimisedMedia" in flow.request.url:
