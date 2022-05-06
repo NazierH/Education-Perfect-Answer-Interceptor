@@ -1,5 +1,6 @@
 
 # Education Perfect Answer
+
 ## Background
 
 While inspecting https traffic between the education perfect an client and server, I found out a few interesting things.
