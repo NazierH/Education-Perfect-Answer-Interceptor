@@ -7,7 +7,9 @@
 ## Usage
 ### Requirements
     - mitmproxy - https://mitmproxy.org/   
-### Setup
+    - Python
+    - NodeJS
+### Setup and usage
     0.  Install mitmproxy at https://mitmproxy.org/ 
     1.  To set up the proxy (the thing that will intercept the request). Go to settings > Network & Internet > Proxy
     2.  Scroll down to Manual Proxy Settings and enable "Use a proxy server",
