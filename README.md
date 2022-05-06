@@ -1,6 +1,31 @@
 
 # Education Perfect Answer
 
+3 days of constant programming lead to this.
+
+
+## Usage
+### Requirements
+    - mitmproxy - https://mitmproxy.org/   
+### Setup
+    0.  Install mitmproxy at https://mitmproxy.org/ 
+    1.  To set up the proxy (the thing that will intercept the request). Go to settings > Network & Internet > Proxy
+    2.  Scroll down to Manual Proxy Settings and enable "Use a proxy server",
+    3.  In the address bar, set the address to "http://localhost" and the port to "8080" and click the Save button.
+    4.  Start the proxy by navigating to the code directory in a command prompt and typing "mitmweb -s main.py"
+    5.  This should open a webpage. Click on the file tab in the top left corner to activate the dropdown menu. 
+        Alternatively navegate to "http://mitm.it/" in your browser
+    6.  In the dropdown menu. Click Install Certificates.
+    7.  If you have set up the proxy correctly, you should see a page saying "Install mitmproxy's Certificate Authority"
+    8.  Install the correct certificate for your operating system, and follow the instructions on the page.
+    9.  Now when you access a webpage it should load correctly and you should be able to see all HTTPS requests and responses.
+    10. Once you have opened the task you need answers for, grab the answers by navigating to the code directory in a command prompt
+        and typing "node ."
+    11. This should print most of the answers in the terminal.
+    12. Have fun :)
+    
+
+
 ## Background
 
 While inspecting https traffic between the education perfect an client and server, I found out a few interesting things.
