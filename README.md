@@ -4,8 +4,6 @@
 4 days of constant programming lead to this.
 Use it well 😉
 
-And dont say you made it. Because you didn't. 
-
 
 ## Usage
 ### Requirements
