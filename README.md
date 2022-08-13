@@ -1,10 +1,3 @@
-
-# Education Perfect Answer
-
-4 days of constant programming lead to this.
-Use it well 😉
-
-
 ## Usage
 ### Requirements
     - mitmproxy - https://mitmproxy.org/   
